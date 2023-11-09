@@ -1,0 +1,14 @@
+# รับข้อความที่ต้องการถอดรหัส
+encoded_text = input()
+
+# แยกคำทั้งหมดในข้อความ
+words = encoded_text.split()
+
+# สลับคำทั้งหมดในลิสต์
+decoded_words = words[::-1]
+
+# รวมคำที่ถูกสลับเป็นข้อความ
+decoded_text = ' '.join(decoded_words)
+
+# แสดงผลลัพธ์
+print(decoded_text)
