@@ -1,0 +1,8 @@
+text = "Hello"
+print(text[1:])
+
+text = "My name is Bob"
+print("Bob" in text)
+
+text = "My name is Bob"
+print("Bob" not in text)

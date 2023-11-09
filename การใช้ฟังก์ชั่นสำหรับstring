@@ -1,0 +1,10 @@
+
+name = input("Firstname: ").capitalize()
+lastname = input("Lastname: ").capitalize()
+print("Hello %s %s !" % (name,lastname))
+
+text = "Pop"
+textFormatted = "Welcome %s "%(name)
+print(textFormatted.center(20,"-")) # การใช้centerเพื่อจัดวางข้อความ "name" และ "lastname ให้อยู่ตรงกลางขอบเขตที่กำหนดคือความ ยาว 20 และเติมตัวอักษร "-" ด้านหน้าและด้านหลังข้อความเพื่อให้ข้อความ "name" และ "lastname" อยู่ตรงกลางขอบเขต.
+print(len(name)) #len เอาไว้นับจำนวนตัวอักษร str เพราะเป็นฟังก์ชั่นที่อยู่ใน str
+

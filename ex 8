@@ -5,7 +5,7 @@ passs = input("password :")
 กาแฟ  = 250
 
 if user=="god" and passs=="0000":
-    print("เมนูผิดกฏหมาย")
+    print("เมนูถูกกฏหมาย")
     print("เลือกสินค้า")
     print("1.น้ำชา")
     print("2.กาแฟ")
@@ -24,6 +24,3 @@ if user=="god" and passs=="0000":
     else:print("ไม่มีสินค้าในระบบ")
 
 else:print("ชื่อผู้ใช้ไม่ถูกต้อง")
-
-
-

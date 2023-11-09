@@ -1,0 +1,7 @@
+X = float(input("press number for plus"))
+Y = float(input("press number for plus"))
+print(str(X),"+",str(Y),"=",(X+Y))
+print(str(X),"-",str(Y),"=",(X-Y))
+print(str(X),"*",str(Y),"=",(X*Y))
+print(str(X),"/",str(Y),"=",(X/Y))
+

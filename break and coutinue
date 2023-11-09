@@ -1,0 +1,9 @@
+for val in "hello":
+    if val == "l":
+        continue
+    print(val)
+print()
+for val in "hello":
+    if val == "l":
+        break
+    print(val)

@@ -1,0 +1,11 @@
+name = "Bob"
+weight = "65"
+print("My name is " + name + " and my weight is " + weight)
+
+name = "Bob"
+weight = "65"
+print("My name is %s and my weight is %s" % (name, weight))
+
+name = "Bob"
+weight = 65.5
+print("My name is %s and my weight is %d" % (name, weight))

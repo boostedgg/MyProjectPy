@@ -1,0 +1,24 @@
+menuList = []
+priceList = []
+
+def showBill():
+    print("---- My Food----")
+    totalprice = 0
+    for number in range(len(menuList)):
+# "len" ใช้เพื่อหาขนาดหรือจำนวนสมาชิกทั้งหมดในลิสต์หรือสตริง และมันชัดเจนและคงที่ ไม่ว่าลิสต์หรือสตริงจะมีข้อมูลเท่าไรก็ตาม คุณสามารถใช้ "len" เพื่อรู้ขนาดที่แน่นอนของข้อมูล
+#len เอาไว้นับจำนวนตัวอักษร str เพราะเป็นฟังก์ชั่นที่อยู่ใน str
+        print(menuList[number], priceList[number])
+        totalprice += int(priceList[number])
+    print("Total price : ", totalprice)
+#หามี print อยู่ใน ฟังก์ชั่นแล้ว เรียกใช้ฟังก์ชั่นได้เลย โดยเขียนแค่ชื่อฟังก์ชั่นเฉยๆ
+while True:
+    menuName = input("Plese Enter Menu :")
+    if(menuName.lower() == "exit"):
+        break
+    else:
+        menuPrice = input("Price :")
+        menuList.append(menuName)
+        priceList.append(menuPrice)
+
+
+showBill()

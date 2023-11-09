@@ -1,0 +1,7 @@
+def add_numbers(a, b):
+    result = a + b
+    return result  # ส่งค่าผลรวมกลับ
+
+
+sum_result = add_numbers(3, 5)  # เรียกใช้ฟังก์ชันและเก็บผลลัพธ์ในตัวแปร sum_result
+print(sum_result)  # ผลลัพธ์จะถูกพิมพ์ออกมาคือ 8

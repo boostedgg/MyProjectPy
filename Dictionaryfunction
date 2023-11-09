@@ -1,0 +1,23 @@
+dict1 = {'Name': 'Jame', 'Age':9}
+print(len(dict1))
+
+dict1 = {'Name': 'Jame', 'Age':9}
+print(type(dict1))
+
+dict1 = {'Bird': 'นกไง', 'cat': 'แมวเอง', 'fish': 'ปลาจ้า'}
+print(dict1['Bird'])
+
+dict1 = {'Bird': 'นกไง', 'cat': 'แมวเอง', 'fish': 'ปลาจ้า'}
+dict1.clear()
+print(dict1)
+
+dict1 = {'Bird': 'นกไง', 'cat': 'แมวเอง', 'fish': 'ปลาจ้า'}
+print(dict1.items())
+
+dict1 = {'Bird': 'นกไง', 'cat': 'แมวเอง', 'fish': 'ปลาจ้า'}
+print(dict1.keys())
+
+dict1 = {'Bird': 'นกไง', 'cat': 'แมวเอง', 'fish': 'ปลาจ้า'}
+print(dict1.values())
+
+#dictionary = {key:value}

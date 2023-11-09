@@ -1,0 +1,9 @@
+start = int(input("start: "))
+step = int(input("Step: "))
+
+result = ""  # ประกาศตัวแปร result และกำหนดค่าเริ่มต้นเป็นข้อความว่าง
+
+for i in range(5):
+    result += str(start + step * i + 1)  # เพิ่มค่าลงในตัวแปร result
+
+print(result)  # พิมพ์ค่าที่เก็บในตัวแปร result ทั้งหมด

@@ -1,0 +1,14 @@
+def my_function():
+    result = "Hello, World!"
+    return result
+
+# ไม่มีคำสั่ง print ใน my_function()
+# ต้องใช้ print เมื่อเรียกใช้ฟังก์ชันเพื่อแสดงผลลัพธ์
+print(my_function())
+
+def my_function0():
+    print("Hello, World!")
+
+# เรียกใช้ฟังก์ชันโดยไม่ต้องใส่ print
+my_function0()
+

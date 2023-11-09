@@ -1,0 +1,7 @@
+print (type("Hello world"))
+print(type(10))
+print(type(10))
+print(type(10))
+print(type(10.25*2))
+
+print("Hello world")

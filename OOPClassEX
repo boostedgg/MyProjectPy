@@ -1,0 +1,31 @@
+class CustomerApp:
+    name = ""
+    lastname = ""
+    age = 0
+
+    def addCart(self):
+        print("Added to Cart",self.name,self.lastname,"'s cart")
+
+
+customer1 = CustomerApp()
+customer1.name = "BOB"
+customer1.lastname = "BABY"
+customer1.addCart()
+
+
+customer2 = CustomerApp()
+customer2.name = "A"
+customer2.lastname = "AA"
+customer2.addCart()
+
+
+customer3 = CustomerApp()
+customer3.name = "B"
+customer3.lastname = "BB"
+customer3.addCart()
+
+
+customer4 = CustomerApp()
+customer4.name = "C"
+customer4.lastname = "CC"
+customer4.addCart()

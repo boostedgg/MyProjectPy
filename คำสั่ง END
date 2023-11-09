@@ -1,0 +1,6 @@
+x = int(input())
+for i in range(x+1):
+    if i < x :
+        print(i,end="-") #เอาไว้ใส่ใน print เท่านั้นมีไว้เว้นวรรค์หรือใส่อะไรเพิ่มเติม
+    else:
+        print(i)

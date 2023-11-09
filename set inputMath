@@ -1,0 +1,7 @@
+userInput = int(input("Enter Number of Your Favorites Fruits :"))
+myFruits = set()
+#ไม่สามารถใช้ {} เพราะ มันเข้าใจว่าเป็น dict มันเป็นเครืองหมายเดียวกันเลยต้องใช้ set()
+while(len(myFruits)<userInput):
+    myFruits.add(input("Fruits : "))
+    print(myFruits)
+#การใช้ while loop ร่วมกับการตรวจสอบความเป็นจริงของเงื่อนไข len(myFruits) < userInput ทำให้โปรแกรมทำงานไปเรื่อย ๆ จนกว่าจำนวนผลไม้ที่ถูกเพิ่มเข้าไปใน myFruits จะเท่ากับ userInput ตามที่ผู้ใช้ระบุ

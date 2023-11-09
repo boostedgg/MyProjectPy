@@ -1,0 +1,17 @@
+myFriends = ["Alice", "Bob", "Trudy"]
+myFriends.append("Prame")
+myFriends.remove("Bob")
+print(myFriends)
+
+
+myFriends = ["Alice", "Bob", "Trudy"]
+print(myFriends)
+myFriends[0] = "Yeen"
+print(myFriends)
+
+myFriends = ["Alice", "Bob", "Trudy"]
+print(myFriends)
+del myFriends[1]
+print(myFriends)
+
+#การเรียกใช้คำสั่ง list คือ [] ถือเป็นการใช้คำสั่ง list แล้ว

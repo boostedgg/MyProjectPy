@@ -1,0 +1,24 @@
+setTest = {"apple", "banana", "orange"}
+for x in setTest:
+    print(x)
+print()
+
+fruit = {"apple", "banana", "orange"}
+print(fruit)
+fruit.add("grape")
+print(fruit)
+print()
+
+fruit = {"apple", "banana", "orange"}
+print(fruit)
+fruit.remove("apple")
+print(fruit)
+print()
+
+fruit = {"apple", "banana", "orange"}
+print(fruit)
+fruit.clear()
+print(fruit)
+
+
+
