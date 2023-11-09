@@ -1,0 +1,14 @@
+from tkinter import *
+
+def change_label_text():
+    new_text = "ข้อความใหม่"
+    label.configure(text=new_text)
+
+root = Tk()
+label = Label(root, text="ข้อความเริ่มต้น")
+label.pack()
+
+button = Button(root, text="เปลี่ยนข้อความ", command=change_label_text)
+button.pack()
+
+root.mainloop()
