@@ -1,0 +1,49 @@
+from tkinter import *
+import math
+
+def calculate_bmi():
+    weight = float(textBoxWeight.get())
+    height = float(textBoxHeight.get()) / 100
+    bmi = weight / (height * height)
+    labelResult.config(text=f'BMI: {bmi:.2f}')
+
+    if bmi < 18.5:
+        result_label.config(text="Underweight")
+    elif bmi < 22.9:
+        result_label.config(text="Normal Weight")
+    elif bmi < 24.9:
+        result_label.config(text="Overweight")
+    elif bmi < 29.9:
+        result_label.config(text="Obesity")
+    else:
+        result_label.config(text="Severe Obesity")
+
+MainWindow = Tk()
+MainWindow.title("BMI Calculator")
+
+labelHeight = Label(MainWindow, text="Height (cm):")
+labelHeight.grid(row=0, column=0)
+textBoxHeight = Entry(MainWindow)
+textBoxHeight.grid(row=0, column=1)
+
+labelWeight = Label(MainWindow, text="Weight (Kg):")
+labelWeight.grid(row=1, column=0)
+textBoxWeight = Entry(MainWindow)
+textBoxWeight.grid(row=1, column=1)
+
+calculateButton = Button(MainWindow, text="Calculate", command=calculate_bmi)
+calculateButton.grid(row=2, column=0)
+
+labelResult = Label(MainWindow, text="Result:")
+labelResult.grid(row=2, column=1)
+
+result_label = Label(MainWindow, text="")
+result_label.grid(row=3, columnspan=2)
+
+#botton คือ ปุ่มตรงตัวเลย
+#้Label คือ การแสดงข้อความ
+#grid คือ การสร้างแถวกับหลัก โดยการใช้ในวงเล็บจะต้องมี row,colum เสมอ เพราะเอาไว้บอกแถวกับหลัก
+#Entry คือ การสร้างช่องใส่ข้อความคล้ายกับ input
+#get คือ
+
+MainWindow.mainloop()
